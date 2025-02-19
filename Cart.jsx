@@ -40,7 +40,7 @@ function Cart() {
           <div className="mb-5">
             <h3>Your Cart Summary:</h3>
             <h4>Total Item: {carts.length}</h4>
-            <h4>Your Total Price: {totalPrice}</h4>
+            <h4>Your Total Price: ${totalPrice}</h4>
           </div>
           {carts.map((cart, id) => (
             <div className="col-12 col-sm-6 col-md-4 col-lg-3 mb-4" key={id}>
